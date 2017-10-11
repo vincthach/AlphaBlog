@@ -1,14 +1,18 @@
-# AlphaBlog
+# Tìm hiểu về ruby
 
-# Cơ bản ruby 
+# Phần 1: Migration ([Link tham khảo)](http://guides.rubyonrails.org/active_record_migrations.html) 
 * Tạo project mới: 
 ```	rails new [project_name] ```
-* Tạo một migrate table mới
+
+* Tạo một migrate table mới:
 ``` rails generate migration create_articales ```
+
 * Thực hiện migrate 
 ```rake db:migrate```
+
 * Hoàn tác migration
 ```rake db:rollback```
+
 * Modify migrate 
 Cách 1:
 ``` rails generate migration add_description_to_articles ```
